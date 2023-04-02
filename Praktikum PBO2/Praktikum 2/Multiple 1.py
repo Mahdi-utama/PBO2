@@ -17,6 +17,6 @@ class MahasiswaPekerja(Mahasiswa, Pekerja):
     def presentasi(self):
         print(self.nama, "sedang presentasi")
 mhs_pekerja = MahasiswaPekerja("Mahdi", "210511030", "Programmer")
-mhs_pekerja.belajar() # output: Ahmad sedang belajar
-mhs_pekerja.bekerja() # output: Ahmad sedang bekerja
-mhs_pekerja.presentasi() # output: Ahmad sedang presentasi
+mhs_pekerja.belajar() # output: Mahdi sedang belajar
+mhs_pekerja.bekerja() # output: Mahdi sedang bekerja
+mhs_pekerja.presentasi() # output: Mahdi sedang presentasi
